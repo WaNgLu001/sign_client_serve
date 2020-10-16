@@ -71,8 +71,8 @@ export default {
       } else {
         this.timer = setInterval(() => {
           this.qrcode.clear();
-          this.qrcode.makeCode("test" + Date.now());
-          console.log("test"+parseInt(Date.now()));
+          let obj = {name:'rjb',timer:Date.now()}
+          this.qrcode.makeCode(JSON.stringify(obj));
         }, 3000);
       }
     },
