@@ -16,8 +16,8 @@
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="face">人脸签到</span>APP源码地址：http://192.168.123.234:8080/home#/home</p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="qr">扫码签到</span>APK下载地址：http://192.168.123.234:8080/home#/home</p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="qr">扫码签到</span>APP源码地址：http://192.168.123.234:8080/home#/home</p>
-    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">签到后台管理</span>系统源码地址：http://192.168.123.234:8080/home#/home</p>
-    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">后台源码</span>后台源码地址：https://github.com/WaNgLu001/face_sign_serve</p>
+    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">签到后台管理</span>系统源码地址：https://github.com/WaNgLu001/sign_client_serve</p>
+    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">服务器后台</span>源码地址：https://github.com/WaNgLu001/face_sign_serve</p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span  class="rl">人脸库</span>修改地址在用户管理/添加用户界面获取</p>
   </div>
     <div>
