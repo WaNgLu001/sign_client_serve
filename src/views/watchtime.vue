@@ -21,7 +21,7 @@
     <el-table
       :data="tableData"
       stripe
-      height="480"
+      max-height="500px"
       style="width: 100%"
       :default-sort="{prop: 'week', order: 'descending'}"
       

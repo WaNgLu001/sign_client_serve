@@ -95,7 +95,6 @@
         tooltip-effect="dark"
         :data="tableData"
         stripe
-        height="480"
         style="width: 100%"
         @selection-change="handleSelectionChange"
         :row-style="rowStyle"
