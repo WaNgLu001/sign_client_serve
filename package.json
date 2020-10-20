@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "easyqrcodejs": "^4.0.0",
     "element-ui": "^2.13.2",
     "file-saver": "^2.0.2",
+    "qrcodejs": "^1.0.0",
     "qrcodejs2": "^0.0.2",
     "vue": "^2.6.11",
     "vue-json-excel": "^0.3.0",

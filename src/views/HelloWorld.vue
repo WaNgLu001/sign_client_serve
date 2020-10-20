@@ -51,12 +51,10 @@ export default {
   methods: {
     creatQrCode() {
       return new QRCode(this.$refs.qrCodeUrl, {
-        text: "123", // 需要转换为二维码的内容
+        text: "http://192.168.123.210:8080/#/HelloWorld", // 需要转换为二维码的内容
         width: 360,
         height: 360,
-        colorDark: "rgb(202,231,247)",
-        colorLight: "rgb(0,138,201)",
-        correctLevel: QRCode.CorrectLevel.H
+        correctLevel: QRCode.CorrectLevel.L
       });
     },
     start() {
