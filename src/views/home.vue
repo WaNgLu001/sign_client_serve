@@ -12,9 +12,9 @@
     </div>
   <div class="face_sign">
     <p style="color:#FF970F;margin-left:20px;margin-bottom:10px;">相关文件下载地址:</p>
-    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="face">人脸签到</span>APK下载地址：链接：https://pan.baidu.com/s/1zl1gA4P5yGbY8Yu6qi65Sw 提取码：ly89 </p>
+    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="face">人脸签到</span>APK下载地址：链接：https://pan.baidu.com/s/11n-CQw4CZAJLk85inBkcgg 提取码：9jk1  </p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="face">人脸签到</span>APP源码地址：https://github.com/WaNgLu001/face_sign_client</p>
-    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="qr">扫码签到</span>APK下载地址：链接：https://pan.baidu.com/s/1JePEP2lGsuyXNhmfBRd3EQ 提取码：ugm9  </p>
+    <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="qr">扫码签到</span>APK下载地址：链接：https://pan.baidu.com/s/1yByorOVRnui2KNUIvx8DlQ 提取码：oooi   </p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="qr">扫码签到</span>APP源码地址：https://github.com/WaNgLu001/qrcode_client</p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">签到后台管理</span>系统源码地址：https://github.com/WaNgLu001/sign_client_serve</p>
     <p style="color:#519ae6;margin-left:30px;margin-bottom:10px;"><span class="ht">服务器后台</span>源码地址：https://github.com/WaNgLu001/face_sign_serve</p>
