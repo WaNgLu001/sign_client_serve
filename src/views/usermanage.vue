@@ -50,7 +50,7 @@
         <el-drawer :visible.sync="addExcel" :direction="direction">
           <span class="shoudongtext">批量添加用户</span>
           <el-upload
-            action="http://119.3.254.20:9966/profile"
+            action="http://xxx.xx.xxx.xx:xxxx/profile"
             :on-preview="handlePreview"
             :on-remove="handleRemove"
             :before-remove="beforeRemove"
