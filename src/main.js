@@ -10,7 +10,7 @@ Vue.component("downloadExcel", JsonExcel);
 Vue.config.productionTip = false
 import axios from 'axios'
 Vue.prototype.$http = axios.create({
-  baseURL:'http://xxx.xx.xx.xxx:xxxx'//axios请求根路径
+  baseURL:'http://xxxxxxx'//axios请求根路径
 })
 new Vue({
   router,
