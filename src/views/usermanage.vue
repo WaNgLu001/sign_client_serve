@@ -50,7 +50,7 @@
         <el-drawer :visible.sync="addExcel" :direction="direction">
           <span class="shoudongtext">批量添加用户</span>
           <el-upload
-            action="http://xxx.xx.xxx.xx:xxxx/profile"
+            action="http://xxx.x.xxx.xx:xxxx/profile"
             :on-preview="handlePreview"
             :on-remove="handleRemove"
             :before-remove="beforeRemove"
@@ -71,7 +71,7 @@
             <p v-show="isHow"></p><br><br>
             <p v-show="isHow">人脸库数据说明:登录在人脸库名称face_sign中的RJB_face进行操作</p><br>
             <p v-show="isHow">登录地址：<a style="text-decoration: underline;" target="_blank" href="https://console.bce.baidu.com/ai/?_=1602837503750&fromai=1#/ai/face/facelib/appList">百度AI人脸库系统</a></p><br>
-            <p v-show="isHow">账号：15235133253 密码：14221..</p>
+            <p v-show="isHow">账号：152*****253 密码：14221..</p>
 
             </div>
             <el-button class="addbutton" type="primary" plain round>点击上传</el-button>
