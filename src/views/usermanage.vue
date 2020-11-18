@@ -44,7 +44,7 @@
               <p v-show="isHow"></p><br><br>
             <p v-show="isHow">人脸库数据说明:登录在人脸库名称face_sign中的RJB_face进行操作</p><br>
             <p v-show="isHow">登录地址：<a style="text-decoration: underline;" target="_blank" href="https://console.bce.baidu.com/ai/?_=1602837503750&fromai=1#/ai/face/facelib/appList">百度AI人脸库系统</a></p><br>
-            <p v-show="isHow">账号：152*****253 密码：14221..</p>
+            <p v-show="isHow">账号：15235133253 密码：14221..</p>
          </div>
         </el-drawer>
         <el-drawer :visible.sync="addExcel" :direction="direction">
@@ -71,7 +71,7 @@
             <p v-show="isHow"></p><br><br>
             <p v-show="isHow">人脸库数据说明:登录在人脸库名称face_sign中的RJB_face进行操作</p><br>
             <p v-show="isHow">登录地址：<a style="text-decoration: underline;" target="_blank" href="https://console.bce.baidu.com/ai/?_=1602837503750&fromai=1#/ai/face/facelib/appList">百度AI人脸库系统</a></p><br>
-            <p v-show="isHow">账号：152*****253 密码：14221..</p>
+            <p v-show="isHow">账号：152****3253 密码：14221..</p>
 
             </div>
             <el-button class="addbutton" type="primary" plain round>点击上传</el-button>
@@ -102,12 +102,12 @@
         @row-click="rowclick"
       >
         <el-table-column type="selection"  width="55"></el-table-column>
-        <el-table-column prop="name" label="姓名" ></el-table-column>
-        <el-table-column prop="uid" label="学号" ></el-table-column>
+        <el-table-column prop="name" label="姓名" min-width='60' ></el-table-column>
+        <el-table-column prop="uid" label="学号"  min-width='60'></el-table-column>
          
-        <el-table-column prop="class" :label="a==='人脸'?'所在教室':'班级'" ></el-table-column>
-        <el-table-column prop="mac" v-if = "isShow" label="MAC地址" ></el-table-column>
-        <el-table-column  label="操作" width='260'>
+        <el-table-column prop="class" :label="a==='人脸'?'所在教室':'班级'" min-width='60' ></el-table-column>
+        <el-table-column prop="mac" v-if = "isShow" label="MAC地址" min-width='100' ></el-table-column>
+        <el-table-column  label="操作" min-width='80' >
           <template slot-scope="scope">
             <el-button
             v-if="isShow"    
